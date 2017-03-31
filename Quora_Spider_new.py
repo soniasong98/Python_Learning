@@ -2,8 +2,8 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 import re
 import time
-from selenium.webdriver.common.keys import Keys
-driver = webdriver.PhantomJS()
+#not in use --- from selenium.webdriver.common.keys import Keys
+driver = webdriver.PhantomJS('/Users/soniasong/Downloads/phantomjs-2.1.1-macosx/bin/phantomjs') #Add PhantomJs path in Mac
 driver.get('https://www.quora.com/Is-Python-a-dying-language')
 time.sleep(1)
 for i in range(100):
