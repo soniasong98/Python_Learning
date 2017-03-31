@@ -2,8 +2,8 @@ import requests
 import re
 from bs4 import BeautifulSoup
 proxies = {
-  "http": "web-proxy.rose.hp.com:8080",
-  "https": "web-proxy.rose.hp.com:8080",
+  "http": "XXXXXXXX.com:8080",
+  "https": "XXXXXXXX.com:8080",
 }
 r = requests.get("https://www.quora.com/Is-Python-a-dying-language", proxies=proxies)
 html_doc = r.text
