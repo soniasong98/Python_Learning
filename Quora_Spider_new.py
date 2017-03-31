@@ -1,6 +1,6 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
-import re
+# not in use --- import re
 import time
 # not in use --- from selenium.webdriver.common.keys import Keys
 driver = webdriver.PhantomJS('/Users/soniasong/Downloads/phantomjs-2.1.1-macosx/bin/phantomjs') #Add PhantomJs path in Mac
